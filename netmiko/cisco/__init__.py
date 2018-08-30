@@ -3,6 +3,7 @@ from netmiko.cisco.cisco_ios import CiscoIosBase, CiscoIosSSH, CiscoIosTelnet, C
 from netmiko.cisco.cisco_ios import CiscoIosFileTransfer
 from netmiko.cisco.cisco_ios import InLineTransfer
 from netmiko.cisco.cisco_asa_ssh import CiscoAsaSSH, CiscoAsaFileTransfer
+from netmiko.cisco.cisco_esa_ssh import CiscoEsaSSH
 from netmiko.cisco.cisco_nxos_ssh import CiscoNxosSSH, CiscoNxosFileTransfer
 from netmiko.cisco.cisco_xr_ssh import CiscoXrSSH, CiscoXrFileTransfer
 from netmiko.cisco.cisco_wlc_ssh import CiscoWlcSSH

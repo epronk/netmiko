@@ -13,6 +13,7 @@ from netmiko.calix import CalixB6SSH, CalixB6Telnet
 from netmiko.checkpoint import CheckPointGaiaSSH
 from netmiko.ciena import CienaSaosSSH
 from netmiko.cisco import CiscoAsaSSH, CiscoAsaFileTransfer
+from netmiko.cisco import CiscoEsaSSH
 from netmiko.cisco import CiscoIosSSH, CiscoIosFileTransfer, CiscoIosTelnet, CiscoIosSerial
 from netmiko.cisco import CiscoNxosSSH, CiscoNxosFileTransfer
 from netmiko.cisco import CiscoS300SSH
@@ -81,6 +82,7 @@ CLASS_MAPPER_BASE = {
     'calix_b6': CalixB6SSH,
     'ciena_saos': CienaSaosSSH,
     'cisco_asa': CiscoAsaSSH,
+    'cisco_esa': CiscoEsaSSH,
     'cisco_ios': CiscoIosSSH,
     'cisco_nxos': CiscoNxosSSH,
     'cisco_s300': CiscoS300SSH,
